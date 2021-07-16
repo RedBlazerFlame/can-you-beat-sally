@@ -1,0 +1,64 @@
+[
+    {
+        "question": "The boy was NOT described as...",
+        "choices": ["tall", "manly", "thin", "straight"],
+        "choiceProbabilities": [2, 1, 10, 2],
+        "correctAnswer": 2,
+        "value": 1
+    },
+    {
+        "question": "The girl was...",
+        "choices": ["Ugly and Wicked", "Ugly but Good", "Beautiful and Good", "Beautiful but Wicked"],
+        "choiceProbabilities": [1, 4, 12, 1],
+        "correctAnswer": 2,
+        "value": 1
+    },
+    {
+        "question": "How did the King test the prince and the princess?",
+        "choices": [
+            "He told them to not go into a forbidden room",
+            "He gave them personality tests to see if they were the right fit for the throne",
+            "He tested them on how to do practical things like mopping the floor to see if they have the capability to serve",
+            "He asked them to come up with political programs that will benefit all the people in the kingdom to see how good they are at managing the kingdom"
+        ],
+        "choiceProbabilities": [10, 1, 2, 2],
+        "correctAnswer": 0,
+        "value": 2
+    },
+    {
+        "question": "Which is true?",
+        "choices": [
+            "A wicked servant tempted the prince",
+            "A wicked servant tempted the princess",
+            "A wicked witch tempted the prince",
+            "A wicked witch tempted the princess"
+        ],
+        "choiceProbabilities": [2, 12, 1, 5],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Which is true?",
+        "choices": [
+            "The prince disobeyed the king, while the princess did not",
+            "The princess disobeyed the king, while the prince did not",
+            "Both of them disobeyed the king",
+            "Neither of them disobeyed the king"
+        ],
+        "choiceProbabilities": [1, 1, 10, 3],
+        "correctAnswer": 2,
+        "value": 1
+    },
+    {
+        "question": "Complete the Quote: \"So you could not keep out of the forbidden ___! Now you must leave the kingdom at once because of your __. I gave you so __, and asked of you so __! Go out from this kingdom and earn your __ with the work of your __!\"",
+        "choices": [
+            "shack, incompetence, little, much, fruit, fists",
+            "room, incompetence, much, little, fruit, hands",
+            "shack, disobedience, little, much, bread, fists",
+            "room, disobedience, much, little, bread, hands"
+        ],
+        "choiceProbabilities": [1, 3, 2, 5],
+        "correctAnswer": 3,
+        "value": 3
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "question": "How many types of axolotl are there in minecraft?",
+        "choices": ["1", "2", "3", "4", "5", "6", "7"],
+        "choiceProbabilities": [1, 1, 2, 4, 40, 4, 2],
+        "correctAnswer": 4,
+        "value": 3
+    },
+    {
+        "question": "Which new block in 1.17 generates leaf particles?",
+        "choices": ["Spore Flower", "Spore Blossom", "Spore Leaf", "Spore Vine"],
+        "choiceProbabilities": [2, 24, 2, 1],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "The Sculk Sensor senses...",
+        "choices": ["Sound", "Light", "Temperature", "Altitude"],
+        "choiceProbabilities": [24, 4, 2, 1],
+        "correctAnswer": 0,
+        "value": 1
+    },
+    {
+        "question": "What new tree was added in the Cave Update?",
+        "choices": ["Redwood", "Palm", "Azalea", "Light Oak"],
+        "choiceProbabilities": [2, 4, 24, 1],
+        "correctAnswer": 2,
+        "value": 1
+    }
+]
