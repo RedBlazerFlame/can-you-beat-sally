@@ -1,7 +1,6 @@
 {
   "name": "lantakatechism-game-16-07-2021",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "type": "module",
   "directories": {
@@ -10,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm ci && node server.js",
-    "watch": "nodemon server.js"
+    "watch": "nodemon server.js",
+    "generate-json": "node createNewJSONFile.js"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +21,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedBlazerFlame/can-you-beat-sally.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RedBlazerFlame/can-you-beat-sally/issues"
+  },
+  "homepage": "https://github.com/RedBlazerFlame/can-you-beat-sally#readme",
+  "description": ""
 }
