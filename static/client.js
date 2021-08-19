@@ -21,6 +21,7 @@ const questionWindow = document.querySelector("main.question-window");
 const finalResultsWindow = document.querySelector("main.final-results");
 const turnIndicatorElement = document.querySelector("main.question-window > section.header > div.turn-indicator");
 const questionElement = document.querySelector("main.question-window > section.header > div.question");
+const imageContainer = document.querySelector("main.question-window > section.image");
 const choicesElement = document.querySelector("main.question-window > section.buttons");
 const playerScoreValueElement = document.querySelector("main.question-window > section.score > div.player-score > span.player-score-value");
 const sallyScoreValueElement = document.querySelector("main.question-window > section.score > div.sally-score > span.sally-score-value");
@@ -38,6 +39,11 @@ function sampleFromProbabilityList(logits) {
         randomNumber -= logit;
     });
     return resultIndex;
+}
+function createImageElement(src) {
+    let imageElement = document.createElement("img");
+    imageElement.src = src;
+    return imageElement;
 }
 function delay(timeDelay) {
     return __awaiter(this, void 0, void 0, function* () {
@@ -57,7 +63,8 @@ function gameMainLoop() {
         let playerScore = 0;
         if (questions.length === 0) {
             try {
-                questions = (yield fetch(`/questions/${questionsId}.json`).then(res => res.json()));
+                questions = (yield fetch(`/questions/${questionsId}.json`).then((res) => res.json()));
+                console.log(questions);
             }
             catch (_a) {
                 console.error("There was an error in fetching the Questions");
@@ -71,7 +78,13 @@ function gameMainLoop() {
             while (choicesElement.hasChildNodes()) {
                 choicesElement.removeChild(choicesElement.firstChild);
             }
-            questionElement.innerText = `${question.question} (${question.value} point${(question.value === 1 ? "" : "s")})`;
+            questionElement.innerText = `${question.question} (${question.value} point${question.value === 1 ? "" : "s"})`;
+            /// Setting Image Element
+            while (imageContainer.hasChildNodes()) {
+                imageContainer.removeChild(imageContainer.lastChild);
+            }
+            (question === null || question === void 0 ? void 0 : question.imageUrl) &&
+                imageContainer.appendChild(createImageElement(`/images/${question.imageUrl}`));
             question.choices.forEach((answerChoice, index) => {
                 const button = document.createElement("button");
                 button.classList.add("button");

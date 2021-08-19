@@ -6,6 +6,7 @@ type Question = {
     choiceProbabilities: Array<number>;
     correctAnswer: number;
     value: number;
+    imageUrl?: string;
 };
 let questions: Array<Question> = [];
 const queryString = window.location.search;
@@ -35,6 +36,9 @@ const turnIndicatorElement: HTMLDivElement = document.querySelector(
 const questionElement: HTMLDivElement = document.querySelector(
     "main.question-window > section.header > div.question"
 ) as HTMLDivElement;
+const imageContainer: HTMLElement = document.querySelector(
+    "main.question-window > section.image"
+) as HTMLElement;
 const choicesElement: HTMLElement = document.querySelector(
     "main.question-window > section.buttons"
 ) as HTMLElement;
@@ -71,6 +75,16 @@ function sampleFromProbabilityList(logits: Array<number>): number {
     });
 
     return resultIndex;
+}
+
+function createImageElement(src: string) {
+    let imageElement: HTMLImageElement = document.createElement(
+        "img"
+    ) as HTMLImageElement;
+
+    imageElement.src = src;
+
+    return imageElement;
 }
 
 async function delay(timeDelay: number): Promise<void> {
@@ -113,6 +127,16 @@ async function gameMainLoop(): Promise<void> {
         questionElement.innerText = `${question.question} (${
             question.value
         } point${question.value === 1 ? "" : "s"})`;
+
+        /// Setting Image Element
+        while (imageContainer.hasChildNodes()) {
+            imageContainer.removeChild(imageContainer.lastChild);
+        }
+
+        question?.imageUrl &&
+            imageContainer.appendChild(
+                createImageElement(`/images/${question.imageUrl}`)
+            );
 
         question.choices.forEach((answerChoice, index) => {
             const button: HTMLButtonElement = document.createElement("button");
