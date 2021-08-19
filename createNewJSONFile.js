@@ -12,7 +12,7 @@ import path from "path";
 // Declaring Constants and Variables
 let fileCode = "";
 let validChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_".split("");
-const QUESTIONS_PATH = path.join(".", "docs", "questions");
+const QUESTIONS_PATH = path.join(".", "static", "questions");
 // Declaring Functions
 function pickRandomItem(array) {
     return array[Math.floor(Math.random() * array.length)];
@@ -31,9 +31,11 @@ function pickRandomItem(array) {
     //     });
     // })();
     let filesInDirectory = yield readdir(QUESTIONS_PATH, { encoding: "utf-8" });
-    let processedFileNames = filesInDirectory.map(i => i.split(".")[0]);
+    let processedFileNames = filesInDirectory.map((i) => i.split(".")[0]);
     do {
-        fileCode = [...Array(16)].map(_ => pickRandomItem(validChars)).join("");
+        fileCode = [...Array(16)]
+            .map((_) => pickRandomItem(validChars))
+            .join("");
     } while (processedFileNames.includes(fileCode));
     yield writeFile(path.join(QUESTIONS_PATH, `${fileCode}.json`), JSON.stringify([]));
     console.log(`Created File with Code ${fileCode}`);

@@ -3,8 +3,11 @@ import path from "path";
 
 // Declaring Constants and Variables
 let fileCode = "";
-let validChars: Array<string> = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_".split("");
-const QUESTIONS_PATH = path.join(".", "docs", "questions");
+let validChars: Array<string> =
+    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_".split(
+        ""
+    );
+const QUESTIONS_PATH = path.join(".", "static", "questions");
 
 // Declaring Functions
 function pickRandomItem<T>(array: Array<T>): T {
@@ -12,7 +15,7 @@ function pickRandomItem<T>(array: Array<T>): T {
 }
 
 // Generating File Code
-(async() => {
+(async () => {
     // let filesInDirectory = await (async function(): Promise<Array<string>>{
     //     return new Promise((resolve) => {
     //         readdir(QUESTIONS_PATH, function(err, files) {
@@ -24,15 +27,20 @@ function pickRandomItem<T>(array: Array<T>): T {
     //         })
     //     });
     // })();
-    let filesInDirectory = await readdir(QUESTIONS_PATH, {encoding: "utf-8"});
+    let filesInDirectory = await readdir(QUESTIONS_PATH, { encoding: "utf-8" });
 
-    let processedFileNames = filesInDirectory.map(i => i.split(".")[0]);
+    let processedFileNames = filesInDirectory.map((i) => i.split(".")[0]);
 
     do {
-        fileCode = [...Array(16)].map(_ => pickRandomItem(validChars)).join("");
-    } while(processedFileNames.includes(fileCode));
+        fileCode = [...Array(16)]
+            .map((_) => pickRandomItem(validChars))
+            .join("");
+    } while (processedFileNames.includes(fileCode));
 
-    await writeFile(path.join(QUESTIONS_PATH, `${fileCode}.json`), JSON.stringify([]));
+    await writeFile(
+        path.join(QUESTIONS_PATH, `${fileCode}.json`),
+        JSON.stringify([])
+    );
 
     console.log(`Created File with Code ${fileCode}`);
 })();

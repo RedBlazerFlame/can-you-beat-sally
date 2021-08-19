@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="client.js" defer></script>
+    <title>Lantakatechism Game</title>
+</head>
+
+<body>
+    <main style="--display: grid;" class="title-screen">
+        <section class="title">Can you Beat</section>
+        <section class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="372" height="422" viewBox="0 0 372 422" fill="none">
+                <path
+                    d="M85.5001 341C72.0548 316.5 51 208 60 158.5C69.0001 109 136.5 34.5 192.5 34.5C248.5 34.5 325 106.5 331.5 158.5C338 210.5 316.5 312.5 301 341C285.5 369.5 249.5 411.5 192.5 411.5C137.964 411.5 108 382 85.5001 341Z"
+                    fill="#FFE9CF" stroke="black" />
+                <rect x="42" y="242" width="66" height="2" fill="black" />
+                <rect x="283" y="242" width="66" height="2" fill="black" />
+                <rect x="172" y="242" width="47" height="2" fill="black" />
+                <circle cx="140" cy="243" r="30" fill="#DDF3FF" fill-opacity="0.62" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M142.623 213.113L110.113 245.623C110.038 244.758 110 243.884 110 243C110 241.803 110.07 240.623 110.206 239.463L136.463 213.206C137.623 213.07 138.803 213 140 213C140.884 213 141.758 213.038 142.623 213.113Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M156.552 217.975L114.975 259.552C113.047 256.643 111.613 253.378 110.792 249.877L146.877 213.792C150.378 214.613 153.643 216.047 156.552 217.975Z"
+                    fill="white" fill-opacity="0.62" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M140 275C157.673 275 172 260.673 172 243C172 225.327 157.673 211 140 211C122.327 211 108 225.327 108 243C108 260.673 122.327 275 140 275ZM140 273C156.569 273 170 259.569 170 243C170 226.431 156.569 213 140 213C123.431 213 110 226.431 110 243C110 259.569 123.431 273 140 273Z"
+                    fill="black" />
+                <circle cx="251" cy="243" r="30" fill="#DDF3FF" fill-opacity="0.62" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M253.623 213.113L221.113 245.623C221.038 244.758 221 243.884 221 243C221 241.803 221.07 240.623 221.206 239.463L247.463 213.206C248.623 213.07 249.803 213 251 213C251.884 213 252.758 213.038 253.623 213.113Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M267.552 217.975L225.975 259.552C224.047 256.643 222.613 253.378 221.792 249.877L257.877 213.792C261.378 214.613 264.643 216.047 267.552 217.975Z"
+                    fill="white" fill-opacity="0.62" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M251 275C268.673 275 283 260.673 283 243C283 225.327 268.673 211 251 211C233.327 211 219 225.327 219 243C219 260.673 233.327 275 251 275ZM251 273C267.569 273 281 259.569 281 243C281 226.431 267.569 213 251 213C234.431 213 221 226.431 221 243C221 259.569 234.431 273 251 273Z"
+                    fill="black" />
+                <path
+                    d="M12.5 397.5C31.7 419.5 62.5001 422.333 80.0001 421V176.5C111.23 174.719 173.53 162.627 212.5 129.288C236.5 162.318 277.833 174.525 295.5 176.5L290.5 421C305.167 422.667 339.1 420.3 357.5 397.5C380.5 369 369.495 178.991 357.5 122.19C345 63 292.5 4.49992 197 1.49992C101.5 -1.50008 36 70 22 122.19C8.56227 172.284 -11.5 370 12.5 397.5Z"
+                    fill="url(#paint0_linear)" />
+                <path
+                    d="M234 104.5C228.299 113.835 220.948 122.061 212.5 129.288M212.5 129.288C173.53 162.627 111.23 174.719 80.0001 176.5V421C62.5001 422.333 31.7 419.5 12.5 397.5C-11.5 370 8.56227 172.284 22 122.19C36 70 101.5 -1.50008 197 1.49992C292.5 4.49992 345 63 357.5 122.19C369.495 178.991 380.5 369 357.5 397.5C339.1 420.3 305.167 422.667 290.5 421L295.5 176.5C277.833 174.525 236.5 162.318 212.5 129.288Z"
+                    stroke="black" />
+                <path
+                    d="M123.356 325.091C123.356 324.813 123.448 325.182 123.648 326.071C128.544 330.307 159.77 346.912 169.356 349.091C178.156 351.091 213.522 344.257 222.356 342.591C215.022 355.424 178.556 389.691 157.356 382.091C133.797 373.645 125.255 333.191 123.648 326.071C122.926 325.446 122.777 325.091 123.356 325.091Z"
+                    fill="black" />
+                <path d="M100 210.5C109 203 132.6 188.2 155 189" class="eyebrow" stroke="black" />
+                <path d="M221 189.5C250.5 186.5 274.5 203 274.5 203" class="eyebrow" stroke="black" />
+                <defs>
+                    <linearGradient id="paint0_linear" x1="186.121" y1="1.40854" x2="186.121" y2="421.423"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#003005" />
+                        <stop offset="1" stop-color="#00720B" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </section>
+        <section class="name">Sally?</section>
+        <section class="start-game">
+            <button class="start-game-button">
+                Begin
+            </button>
+        </section>
+    </main>
+
+    <main style="--display: none;" class="question-window">
+        <section class="header">
+            <div class="turn-indicator">
+                It is Sally's Turn
+            </div>
+            <div class="question">
+                Why is [Placeholder] a [Placeholder]?
+            </div>
+        </section>
+        <section class="image"></section>
+        <section class="buttons">
+            <button class="button">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla laboriosam eos
+                accusamus asperiores? Labore reprehenderit earum sunt blanditiis saepe velit fugit, quibusdam vero
+                officiis alias pariatur cumque, laudantium aliquam?</button><button class="button">Vero voluptas
+                deserunt placeat. Voluptates minima ea, dolor similique placeat sit omnis odio nihil culpa illo animi
+                distinctio. Molestiae deleniti dolore praesentium, facilis autem alias. Velit voluptatem fugiat veniam
+                quos!</button><button class="button">Facilis ipsam vitae, dolorem expedita cum recusandae sunt tempora
+                cumque dolor maxime, quaerat excepturi perspiciatis ut laborum quas. Vel expedita nemo modi distinctio
+                inventore at corporis illum reiciendis dignissimos atque?</button><button class="button">Quo at sequi
+                dolore dolores facilis numquam libero eligendi quis blanditiis veritatis odio dolorem atque rem non
+                reiciendis possimus cum, praesentium id cupiditate! Rem dolore sint error praesentium aliquid
+                delectus!</button><button class="button">Adipisci, architecto. Voluptatum tempora voluptatibus rem
+                provident eveniet alias explicabo sint optio! Tempora architecto consequuntur atque enim, hic sit
+                obcaecati aliquid expedita nam iusto, ducimus odit deleniti, ullam quo soluta.</button><button
+                class="button">Aliquid dolores rerum illo, nihil quisquam nulla quam optio provident. Quidem,
+                necessitatibus! Ad nihil enim recusandae tempora modi voluptatem suscipit, autem soluta deleniti neque
+                quo, quidem beatae natus dolorem similique.</button><button class="button">Earum hic sequi iste
+                consectetur perspiciatis voluptatibus molestiae quae animi illo perferendis. Laboriosam in voluptas,
+                officiis, perspiciatis deleniti quidem hic doloribus facere veniam tempore possimus perferendis, vel
+                ipsum ratione non.</button><button class="button">Veniam, est? Sit libero distinctio nam nobis nihil
+                minima officiis sequi. Voluptatem, consequatur nam quos porro nihil reiciendis accusantium beatae
+                explicabo quidem fuga veritatis sint neque, quam voluptatum maxime provident!</button><button
+                class="button">At cumque impedit atque vitae architecto! Cupiditate, sit dolorum voluptate molestiae
+                sunt deserunt animi in quos minima velit earum! Numquam, beatae? Quidem laudantium perspiciatis
+                reiciendis voluptatibus quia officiis doloribus fuga!</button><button class="button">Quasi nostrum
+                consequuntur deserunt placeat doloribus minus sequi eos architecto delectus, corporis provident
+                laboriosam! Quas est facere, cumque omnis sapiente amet necessitatibus perferendis nam vel,
+                exercitationem natus mollitia modi obcaecati?</button>
+        </section>
+        <section class="score">
+            <div class="player-score">
+                <span>Your Score: </span><span class="player-score-value">0</span>
+            </div>
+            <div class="sally-score">
+                <span>Sally's Score: </span><span class="sally-score-value">0</span>
+            </div>
+        </section>
+    </main>
+
+    <main style="--display: none;" class="final-results">
+        <section class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="372" height="422" viewBox="0 0 372 422" fill="none">
+                <path
+                    d="M85.5001 341C72.0548 316.5 51 208 60 158.5C69.0001 109 136.5 34.5 192.5 34.5C248.5 34.5 325 106.5 331.5 158.5C338 210.5 316.5 312.5 301 341C285.5 369.5 249.5 411.5 192.5 411.5C137.964 411.5 108 382 85.5001 341Z"
+                    fill="#FFE9CF" stroke="black" />
+                <rect x="42" y="242" width="66" height="2" fill="black" />
+                <rect x="283" y="242" width="66" height="2" fill="black" />
+                <rect x="172" y="242" width="47" height="2" fill="black" />
+                <circle cx="140" cy="243" r="30" fill="#DDF3FF" fill-opacity="0.62" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M142.623 213.113L110.113 245.623C110.038 244.758 110 243.884 110 243C110 241.803 110.07 240.623 110.206 239.463L136.463 213.206C137.623 213.07 138.803 213 140 213C140.884 213 141.758 213.038 142.623 213.113Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M156.552 217.975L114.975 259.552C113.047 256.643 111.613 253.378 110.792 249.877L146.877 213.792C150.378 214.613 153.643 216.047 156.552 217.975Z"
+                    fill="white" fill-opacity="0.62" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M140 275C157.673 275 172 260.673 172 243C172 225.327 157.673 211 140 211C122.327 211 108 225.327 108 243C108 260.673 122.327 275 140 275ZM140 273C156.569 273 170 259.569 170 243C170 226.431 156.569 213 140 213C123.431 213 110 226.431 110 243C110 259.569 123.431 273 140 273Z"
+                    fill="black" />
+                <circle cx="251" cy="243" r="30" fill="#DDF3FF" fill-opacity="0.62" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M253.623 213.113L221.113 245.623C221.038 244.758 221 243.884 221 243C221 241.803 221.07 240.623 221.206 239.463L247.463 213.206C248.623 213.07 249.803 213 251 213C251.884 213 252.758 213.038 253.623 213.113Z"
+                    fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M267.552 217.975L225.975 259.552C224.047 256.643 222.613 253.378 221.792 249.877L257.877 213.792C261.378 214.613 264.643 216.047 267.552 217.975Z"
+                    fill="white" fill-opacity="0.62" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M251 275C268.673 275 283 260.673 283 243C283 225.327 268.673 211 251 211C233.327 211 219 225.327 219 243C219 260.673 233.327 275 251 275ZM251 273C267.569 273 281 259.569 281 243C281 226.431 267.569 213 251 213C234.431 213 221 226.431 221 243C221 259.569 234.431 273 251 273Z"
+                    fill="black" />
+                <path
+                    d="M12.5 397.5C31.7 419.5 62.5001 422.333 80.0001 421V176.5C111.23 174.719 173.53 162.627 212.5 129.288C236.5 162.318 277.833 174.525 295.5 176.5L290.5 421C305.167 422.667 339.1 420.3 357.5 397.5C380.5 369 369.495 178.991 357.5 122.19C345 63 292.5 4.49992 197 1.49992C101.5 -1.50008 36 70 22 122.19C8.56227 172.284 -11.5 370 12.5 397.5Z"
+                    fill="url(#paint1_linear)" />
+                <path
+                    d="M234 104.5C228.299 113.835 220.948 122.061 212.5 129.288M212.5 129.288C173.53 162.627 111.23 174.719 80.0001 176.5V421C62.5001 422.333 31.7 419.5 12.5 397.5C-11.5 370 8.56227 172.284 22 122.19C36 70 101.5 -1.50008 197 1.49992C292.5 4.49992 345 63 357.5 122.19C369.495 178.991 380.5 369 357.5 397.5C339.1 420.3 305.167 422.667 290.5 421L295.5 176.5C277.833 174.525 236.5 162.318 212.5 129.288Z"
+                    stroke="black" />
+                <path style="transform-origin: 50% 85%; transform: rotateZ(0deg);"
+                    d="M123.356 325.091C123.356 324.813 123.448 325.182 123.648 326.071C128.544 330.307 159.77 346.912 169.356 349.091C178.156 351.091 213.522 344.257 222.356 342.591C215.022 355.424 178.556 389.691 157.356 382.091C133.797 373.645 125.255 333.191 123.648 326.071C122.926 325.446 122.777 325.091 123.356 325.091Z"
+                    fill="black" />
+                <path d="M100 210.5C109 203 132.6 188.2 155 189" stroke="black" />
+                <path d="M221 189.5C250.5 186.5 274.5 203 274.5 203" stroke="black" />
+                <defs>
+                    <linearGradient id="paint1_linear" x1="186.121" y1="1.40854" x2="186.121" y2="421.423"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#003005" />
+                        <stop offset="1" stop-color="#00720B" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </section>
+        <section class="winner">
+            You won!
+        </section>
+        <section class="scores">
+            <div class="player-score">
+                <span>Your Score: </span>
+                <span class="player-score-value">420</span>
+            </div>
+            <div class="sally-score">
+                <span>Sally's Score:</span>
+                <span class="sally-score-value">69</span>
+            </div>
+        </section>
+        <section class="reset">
+            <button class="reset-button">Reset</button>
+        </section>
+    </main>
+</body>
+
+</html>

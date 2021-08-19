@@ -142,9 +142,10 @@ main {
     &.question-window {
         @include gridElement(
             "header"
+            "image"
             "buttons"
             "score",
-            7fr 15fr 2fr,
+            20vh auto minmax(40vh, 70vh) 10vh,
             1fr,
             var(--display)
         );
@@ -168,6 +169,24 @@ main {
             &>div.turn-indicator {
                 font-size: 0.5rem;
             }
+        }
+
+        &>section.image {
+            grid-area: image;
+
+            max-height: 30vh;
+
+            resize: none;
+
+            & > img {
+                max-height: 30vh;
+            }
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: fit-content;
         }
 
         &>section.buttons {

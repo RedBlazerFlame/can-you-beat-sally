@@ -93,8 +93,8 @@ main.title-screen > section.start-game > button.start-game-button:focus {
 }
 main.question-window {
   display: var(--display);
-  grid-template-areas: "header" "buttons" "score";
-  grid-template-rows: 7fr 15fr 2fr;
+  grid-template-areas: "header" "image" "buttons" "score";
+  grid-template-rows: 20vh auto minmax(40vh, 70vh) 10vh;
   grid-template-columns: 1fr;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1rem;
@@ -117,6 +117,19 @@ main.question-window > section.header > * {
 }
 main.question-window > section.header > div.turn-indicator {
   font-size: 0.5rem;
+}
+main.question-window > section.image {
+  grid-area: image;
+  max-height: 30vh;
+  resize: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+main.question-window > section.image > img {
+  max-height: 30vh;
 }
 main.question-window > section.buttons {
   grid-area: buttons;
