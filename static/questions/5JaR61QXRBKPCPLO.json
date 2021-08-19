@@ -1,0 +1,54 @@
+[
+    {
+        "question": "1. Maaari natin tanggapin ang ostia gamit ang ating:",
+        "choices": ["dila", "kamay", "dila o kamay"],
+        "choiceProbabilities": [1, 1, 7],
+        "correctAnswer": 2,
+        "value": 1
+    },
+    {
+        "question": "2. Tama ba ang pagkahawak ng ostia sa larawan na ito?",
+        "choices": ["tama", "mali"],
+        "choiceProbabilities": [1, 3.5],
+        "correctAnswer": 1,
+        "value": 1,
+        "imageUrl": "19-08-2021-man-snatches-host.png"
+    },
+    {
+        "question": "3. Tama ba ang pagkahawak ng ostia sa larawan na ito?",
+        "choices": ["tama", "mali"],
+        "choiceProbabilities": [1, 3.5],
+        "correctAnswer": 1,
+        "value": 1,
+        "imageUrl": "19-08-2021-woman-bites-host.png"
+    },
+    {
+        "question": "4. Tama ba ang pagkahawak ng ostia sa larawan na ito?",
+        "choices": ["tama", "mali"],
+        "choiceProbabilities": [3.5, 1],
+        "correctAnswer": 0,
+        "value": 1,
+        "imageUrl": "19-08-2021-man-receives-host-properly.png"
+    },
+    {
+        "question": "5. Ano ang ginagawa natin bago tanggapin ang ostia?",
+        "choices": ["Lumuhod", "Tumungo", "Mag-antanda ng krus"],
+        "choiceProbabilities": [1, 7, 1],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "6. Tama o mali: Kapag sinabi ng pari ang mga salitang \"ang Katawan ni Kristo\", hindi natin kailangang sumagot:",
+        "choices": ["Tama", "Mali"],
+        "choiceProbabilities": [1, 3.5],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "7. Kapag tayo ay sumagot ng \"Amen\" pagkatapos sabihin ng pari na \"Ang Katawan ni Kristo\", ano ang nais nating ipahiwatig talaga?",
+        "choices": ["Namangha ako", "Siya nawa", "Handa na ako"],
+        "choiceProbabilities": [1, 3.5, 1],
+        "correctAnswer": 1,
+        "value": 1
+    }
+]
