@@ -1,0 +1,81 @@
+[
+    {
+        "question": "Ano rito ang HINDI tamang paraan ng pagsasalamat pagkatapos ng komunyon?",
+        "choices": [
+            "Pagkatapos ng misa, tumahimik muna si Gilda upang ipagsalamatan ang Panginoon",
+            "Mabilis na umalis si Don mula sa simbahan dahil marami siyang kailangang gawin para sa araw na iyon",
+            "Nanatiling nakaupo si Ray sa loob ng simbahan upang magdasal sa Panginoon",
+            "Pagkatapos ng misa, nanatili sina Emma at Norman sa loob ng simbahan at kinanta nila ang \"Closing Hymn\""
+        ],
+        "choiceProbabilities": [2, 12, 1, 1],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Bakit mahalaga ang pagsasalamat pagkatapos ng komunyon? Piliin ninyo ang pinakatamang sagot",
+        "choices": [
+            "Dahil ginagawa ito ng lahat ng tao",
+            "Dahil kailangan natin gawin ito",
+            "Dahil kailangan natin magbigay ng mabuting halimbawa para sa ibang mga tao sa simbahan",
+            "Dahil pinatutunayan natin ang ating pagmamahal para sa Panginoon"
+        ],
+        "choiceProbabilities": [2, 1, 3, 12],
+        "correctAnswer": 3,
+        "value": 1
+    },
+    {
+        "question": "Maaari bang isamba ang Banal na Sakramento sa labas ng misa?",
+        "choices": [
+            "Oo",
+            "Oo, pero hindi ito masyadong inirerekomenda ng simbahan",
+            "Hindi ito puwedeng gawin, ngunit may mga bihirang kaso kung saan maaaring itong gawin ng Pari",
+            "Hindi"
+        ],
+        "choiceProbabilities": [12, 3, 2, 1],
+        "correctAnswer": 0,
+        "value": 1
+    },
+    {
+        "question": "Maaari bang tanggapin ang Banal na Sakramento sa labas ng misa?",
+        "choices": [
+            "Hindi, maaari lang natin tanggapin ang Banal na Sakramento sa misa",
+            "Oo, maari nating tanggapin ang Banal na Sakramento sa panahon ng \"Communion Outside of Mass,\" o kapag malapit na sa kamatayan and isang tao"
+        ],
+        "choiceProbabilities": [1, 3],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Bakit ba tayo nag gegenuflect sa harap ng Banal na Sakramento?",
+        "choices": [
+            "Kasi ginagawa ng maraming tao",
+            "Kasi pinapagalitan tayo kapag hindi natin ito ginagawa",
+            "Kasi isa iyon sa mga oportunidad na maipapakita ko sa Diyos gamit ang aking katawan kung gaano ko siya kamahal at nirerespeto."
+        ],
+        "choiceProbabilities": [3, 2, 12],
+        "correctAnswer": 2,
+        "value": 1
+    },
+    {
+        "question": "Kapag nasa Monstrance ang Banal na Sakramento, ano ang aksyon na dapat nating gawin?",
+        "choices": [
+            "Humiga sa sahig",
+            "Double Genuflection",
+            "Yumuko lamang"
+        ],
+        "choiceProbabilities": [1, 12, 3],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Kapag nasaloob ng Tabernacle ang Banak na Sakramento, ano ang aksyon na kailangan nating gawin?",
+        "choices": [
+            "Genuflect",
+            "Kumanta ng Church songs",
+            "Yumuko lamang"
+        ],
+        "choiceProbabilities": [12, 1, 3],
+        "correctAnswer": 0,
+        "value": 1
+    }
+]
