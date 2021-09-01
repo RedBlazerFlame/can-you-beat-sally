@@ -1,0 +1,81 @@
+[
+    {
+        "question": "Ano rito ang HINDI tamang paraan ng pasasalamat pagkatapos mangomunyon?",
+        "choices": [
+            "Pagkatapos ng Misa, tumahimik muna si Gilda upang magpasalamat sa Panginoon",
+            "Mabilis lumisan si Don mula sa simbahan dahil marami pa siyang kailangang gawin sa araw na iyon",
+            "Nanatiling nakaupo si Ray sa loob ng simbahan upang magdasal sa Panginoon",
+            "Pagkatapos ng Misa, nanatili sina Emma at Norman sa loob ng simbahan at kinanta nila ang Pangwakas na Awit"
+        ],
+        "choiceProbabilities": [2, 7, 1, 1],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Bakit mahalagang magpasalamat pagkatapos makatanggap ng Komunyon? Piliin ninyo ang pinakawastong sagot.",
+        "choices": [
+            "Dahil ginagawa ito ng lahat ng tao",
+            "Sapagkat kailangang tuparin ito",
+            "Dahil kailangan nating magbigay ng mabuting halimbawa sa ibang mga tao sa simbahan",
+            "Dahil pinatutunayan natin ang ating pagmamahal para sa Panginoon"
+        ],
+        "choiceProbabilities": [2, 1, 3, 7],
+        "correctAnswer": 3,
+        "value": 1
+    },
+    {
+        "question": "Maaari bang sambahin ang Banal na Sakramento sa labas ng Misa?",
+        "choices": [
+            "Oo",
+            "Oo, pero hindi ito gaanong ipinapayo ng Simbahan",
+            "Hindi ito maaaring gawin, ngunit may mga natatanging panahon kung saan maaaring itong gawin ng pari",
+            "Hindi"
+        ],
+        "choiceProbabilities": [7, 3, 2, 1],
+        "correctAnswer": 0,
+        "value": 1
+    },
+    {
+        "question": "Maari bang tanggapin ang Banal na Sakramento sa labas ng Misa?",
+        "choices": [
+            "Hindi, maaari lang natin tanggapin ang Banal na Sakramento sa loob ng pagdiriwang ng Misa",
+            "Oo, maaari nating tanggapin ang Banal na Sakramento sa mga pambihirang pagkakataong pinahihintulutan ng Simbahan katulad ngayong panahon ng pandemya at kapag nasa bingit na ng kamatayan ang isang tao"
+        ],
+        "choiceProbabilities": [1, 3],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Bakit ba tayo lumuluhod gamit ang kanang tuhod (genuflection) sa harap ng Banal na Sakramento?",
+        "choices": [
+            "Dahil ginagawa ng maraming tao",
+            "Sapagkat pagagalitan ako kapag hindi ko ginawa",
+            "Dahil isa iyon sa mga pagkakataon upang maipakita ko sa Diyos sa pamamagitan ng aking katawan at kilos kung gaano ko siya kamahal at ginagalang."
+        ],
+        "choiceProbabilities": [3, 2, 7],
+        "correctAnswer": 2,
+        "value": 1
+    },
+    {
+        "question": "Kapag isinalin ang Banal na Sakramento sa loob ng \"Monstrance\", paano natin ipapahiwatig ang ating pagkilala at paggalang sa Panginoon?",
+        "choices": [
+            "Humiga sa sahig",
+            "Lumuhod gamit ang dalawang tuhod",
+            "Yumuko lamang"
+        ],
+        "choiceProbabilities": [1, 7, 3],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Tuwing daraan tayo sa harap ng Sagraryo o Tabernakulo (Tabernacle) at kinukubli nito ang Banal na Sakramento, anong kilos ang pinakanararapat gawin?",
+        "choices": [
+            "Lumuhod gamit ang kanang tuhod",
+            "Kumanta ng mga awit ng simbahan",
+            "Yumuko lamang"
+        ],
+        "choiceProbabilities": [7, 1, 3],
+        "correctAnswer": 0,
+        "value": 1
+    }
+]

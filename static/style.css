@@ -17,7 +17,7 @@
   }
 }
 :root {
-  font-size: clamp(12px, 2vw, 36px);
+  font-size: clamp(12px, 3vw, 64px);
 }
 
 body, html {
@@ -47,7 +47,7 @@ main.title-screen {
   grid-template-rows: 2fr 10fr 2fr 2fr;
   grid-template-columns: 1fr;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 main.title-screen > * {
   display: flex;
@@ -83,7 +83,7 @@ main.title-screen > section.start-game > button.start-game-button {
   padding: calc(0.5rem - 2px);
   font-family: "Josefin Sans", sans-serif;
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.5rem;
 }
 main.title-screen > section.start-game > button.start-game-button:focus {
   background-color: black;
@@ -97,7 +97,7 @@ main.question-window {
   grid-template-rows: 20vh auto minmax(40vh, 70vh) 10vh;
   grid-template-columns: 1fr;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 main.question-window > * {
   display: flex;
@@ -134,7 +134,7 @@ main.question-window > section.image > img {
 main.question-window > section.buttons {
   grid-area: buttons;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: stretch;
   justify-content: center;
   flex-wrap: wrap;
@@ -148,7 +148,7 @@ main.question-window > section.buttons > button.button {
   border-radius: 0.5rem;
   font-size: 0.5rem;
   margin: 0.5rem;
-  max-width: 20vw;
+  max-height: 20vh;
 }
 main.question-window > section.buttons > button.button.correct-answer {
   background-color: lime;
