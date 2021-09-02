@@ -13,6 +13,9 @@ let questions = [];
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const questionsId = urlParams.get("id");
+const backgroundColor = urlParams.get("bgcolor");
+if (backgroundColor !== null)
+    document.body.style.backgroundColor = backgroundColor;
 // Getting a reference to the HTML elements
 const startGameButton = document.querySelector("button.start-game-button");
 const resetButton = document.querySelector("button.reset-button");
