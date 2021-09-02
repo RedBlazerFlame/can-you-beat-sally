@@ -1,0 +1,75 @@
+[
+    {
+        "question": "Ito ang sakramento kung saan ang mga Katoliko ay tumatanggap ng isang espesyal na basbas ng Banal na Espiritu.",
+        "choices": [
+            "Binyag",
+            "Kumpil"
+        ],
+        "choiceProbabilities": [1, 3.5],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Ito ay isang seremonya sa simbahan kung saan minamarkahang kristiyano ang isang indibidwal.",
+        "choices": [
+            "Binyag",
+            "Kumpil"
+        ],
+        "choiceProbabilities": [3.5, 1],
+        "correctAnswer": 0,
+        "value": 1
+    },
+    {
+        "question": "Ito ang sakramento kung saan inaamin natin ang ating mga kasalanan sa isang pari at matapos noon, nakakatanggap tayo ng kapatawaran.",
+        "choices": [
+            "Banal na Eukaristiya",
+            "Kumpisal",
+            "Pagpapahid ng Langis sa Maysakit"
+        ],
+        "choiceProbabilities": [1, 7, 1],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Ito ay ang sakramento kung saan tinatanggap natin si Hesus sa anyo ng alak at tinapay.",
+        "choices": [
+            "Banal na Eukaristiya",
+            "Kumpisal",
+            "Pagpapahid ng Langis sa Maysakit"
+        ],
+        "choiceProbabilities": [7, 1, 1],
+        "correctAnswer": 0,
+        "value": 1
+    },
+    {
+        "question": "Ang sakramentong ito ay ibinibigay sa mga may sakit upang mabigyan sila ng espiritwal at pisikal na lakas.",
+        "choices": [
+            "Banal na Eukaristiya",
+            "Kumpisal",
+            "Pagpapahid ng Langis sa Maysakit"
+        ],
+        "choiceProbabilities": [1, 1, 7],
+        "correctAnswer": 2,
+        "value": 1
+    },
+    {
+        "question": "Ang sakramentong ito ay ang pagsasama ng isang lalaki at isang babae magpakailanman.",
+        "choices": [
+            "Kasal",
+            "Banal na Orden"
+        ],
+        "choiceProbabilities": [3.5, 1],
+        "correctAnswer": 0,
+        "value": 1
+    },
+    {
+        "question": "Sa pamamagitan ng sakramentong ito ang isang lalaki ay nagiging isang diakono, pari o obispo.",
+        "choices": [
+            "Kasal",
+            "Banal na Orden"
+        ],
+        "choiceProbabilities": [1, 3.5],
+        "correctAnswer": 1,
+        "value": 1
+    }
+]
