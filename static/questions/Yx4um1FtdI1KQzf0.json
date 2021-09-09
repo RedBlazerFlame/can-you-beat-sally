@@ -1,0 +1,41 @@
+[
+    {
+        "question": "May tatlong uri ng Sakramento: Sakramento ng Bokasyon o Ministeryo, Sakramento ng Pagpapagaling, at Sakramento ng ____",
+        "choices": ["Pagpuri", "Pagmamahal", "Pagtanggap"],
+        "choiceProbabilities": [1, 1, 7],
+        "correctAnswer": 2,
+        "value": 1
+    },
+    {
+        "question": "Ano ang mga Sakramento ng Pagtanggap?",
+        "choices": [
+            "Binyag, Kumpil, Banal na Eukaristiya",
+            "Kumpisal, Pagpapahid ng Langis sa Maysakit",
+            "Kasal, Banal na Orden"
+        ],
+        "choiceProbabilities": [7, 1, 1],
+        "correctAnswer": 0,
+        "value": 1
+    },
+    {
+        "question": "Ito ang Sakramento kung saan ang mga Katoliko ay nakatatanggap ng isang natatanging basbas ng Banal na Espiritu upang mapagtibay ang kanilang buhay-Kristiyano.",
+        "choices": ["Binyag", "Kumpil", "Banal na Eukaristiya"],
+        "choiceProbabilities": [1, 7, 1],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Ito ay isang Sakramentong ipinagdiriwang sa Simbahan kung saan malugod na tinatanggap ang isang sanggol o may muwang na bilang isang Kristiyano.",
+        "choices": ["Binyag", "Kumpil", "Banal na Eukaristiya"],
+        "choiceProbabilities": [7, 1, 1],
+        "correctAnswer": 0,
+        "value": 1
+    },
+    {
+        "question": "Ito ay ang sakramento kung saan tinatanggap natin si Hesus sa anyo ng alak at tinapay.",
+        "choices": ["Binyag", "Kumpil", "Banal na Eukaristiya"],
+        "choiceProbabilities": [1, 1, 7],
+        "correctAnswer": 2,
+        "value": 1
+    }
+]
