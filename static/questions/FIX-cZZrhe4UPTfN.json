@@ -1,0 +1,78 @@
+[
+    {
+        "question": "Ito ang sakramento kung saan inaamin natin ang ating mga kasalanan sa isang pari, at matapos noon, nakatatanggap tayo ng kapatawaran.",
+        "choices": [
+            "Banal na Eukaristiya",
+            "Kumpisal",
+            "Pagpapahid ng Langis sa Maysakit"
+        ],
+        "choiceProbabilities": [1, 7, 1],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Ang sakramentong ito ay ibinibigay sa mga maysakit sa pag-asang mababahagian sila ng lakas ng kaluluwa at katawan:",
+        "choices": [
+            "Banal na Eukaristiya",
+            "Kumpisal",
+            "Pagpapahid ng Langis sa Maysakit"
+        ],
+        "choiceProbabilities": [1, 1, 7],
+        "correctAnswer": 2,
+        "value": 1
+    },
+    {
+        "question": "Bakit masama ang paggawa ng kasalanan? Piliin ang pinakawastong sagot.",
+        "choices": [
+            "Dahil nahihiwalay tayo sa Diyos at sa ating kapwa",
+            "Dahil pagagalitan tayo kapag tayo ay nagkasala",
+            "Dahil tayo ay pupunta sa impiyerno kapag marami tayong kasalanan",
+            "Dahil parurusahan tayo ng ibang tao"
+        ],
+        "choiceProbabilities": [10.5, 1, 1, 1],
+        "correctAnswer": 0,
+        "value": 1
+    },
+    {
+        "question": "Tama o Mali: Kailangan natin banggitin ang ating mga \"venial sins\" (o kasalanang di nakamamatay) sa pari tuwing tayo ay nangungumpisal.",
+        "choices": [
+            "Tama",
+            "Mali, pero mas maganda kapag sinasabi pa rin natin ito sa pari"
+        ],
+        "choiceProbabilities": [1, 3.5],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Ang unang bahagi ng mabisang pangungumpisal ay:",
+        "choices": [
+            "Paghingi ng tawad",
+            "Pagsusuri ng budhi",
+            "Penitensya o pagbabayad sa mga kasalanan ayon sa payo ng pari"
+        ],
+        "choiceProbabilities": [1, 7, 1],
+        "correctAnswer": 1,
+        "value": 1
+    },
+    {
+        "question": "Tama o Mali: Maaaring sabihin ng pari ang mga kasalanan mo sa ibang tao sa labas ng Kumpisal.",
+        "choices": [
+            "Tama",
+            "Mali, ngunit maaaring ibahagi ito ng pari sa mga abogado kung may ginawa kang labag sa batas",
+            "Mali. Hindi puwedeng ibahagi ng pari ang iyong mga kasalanan sa ibang tao dahil maaari siyang hatulan ng Simbahan ng excommunication o pagbabawal na isagawa ang kanyang pagpapari"
+        ],
+        "choiceProbabilities": [1, 1, 7],
+        "correctAnswer": 2,
+        "value": 1
+    },
+    {
+        "question": "Tama o Mali: Ang mga matatandang tao lamang ang maaaring makatanggap ng Anointing of the Sick (Pagpapahid ng Langis).",
+        "choices": [
+            "Tama",
+            "Mali"
+        ],
+        "choiceProbabilities": [1, 3.5],
+        "correctAnswer": 1,
+        "value": 1
+    }
+]
