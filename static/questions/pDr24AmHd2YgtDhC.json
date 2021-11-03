@@ -1,0 +1,72 @@
+[
+{
+    "question": "Bakit ibinigay sa atin ng Panginoon ang sampung utos?",
+    "choices": [" Para matakot tayo sakanya", "Para kontrolin niya tayo dahil makulit tayo", "Dahil sobrang mahal niya tayo at mapagtanto natin kung paano mabuhay ng tama"],
+    "choiceProbabilities": [1, 1, 8],
+    "correctAnswer": 2,
+    "value": 1
+},
+{
+    "question": "Kahit ang unang tatlong utos palang ang natalakay natin, ano ang dalawang utos na nagbubuod ng lahat ng sampong utos?",
+    "choices": ["“Ibigin mo ang Diyos ng lalo at higit sa lahat ng bagay” at “Huwag kang magnakaw”", "“Ibigin mo ang Panginoon mong Dios ng buong puso mo, at ng buong kaluluwa mo, at ng buong pagiisip mo” at “Ibigin mo ang iyong kapuwa na gaya ng iyong sarili”", "“Huwag kang papatay ng kapuwa mo tao” at “Huwag kang magpahamak manumpa sa ngalan ng Diyos”"],
+    "choiceProbabilities": [1, 8, 1],
+    "correctAnswer": 1,
+    "value": 1
+},
+{
+    "question": "Ano ang batayan ng sampung utos?",
+    "choices": ["Takot sa batas", "Upang makita ng mga tao na mabait tayo", "Ang pag-ibig satin ng Diyos at ang pag-ibig natin sakanya"],
+    "choiceProbabilities": [1, 1, 8],
+    "correctAnswer": 2,
+    "value": 1
+},
+{
+    "question": "Ano ang tamang pagkakasunod-sunod ng unang tatlong utos?",
+    "choices": ["Ibigin mo ang Diyos ng lalo at higit sa lahat ng bagay, Huwag kang magpahamak manumpa sa ngalan ng Diyos, Mangilin ka kung lingo at mga araw na dapat mangilin", "Ibigin mo ang Diyos ng lalo at higit sa lahat ng bagay, Huwag ka ng magsasamba sa mga diyos-diyosan, Ipa ngilin mo ang araw ng sabbath"],
+    "choiceProbabilities": [4, 1],
+    "correctAnswer": 0,
+    "value": 1
+},
+{
+    "question": "Tama o Mali: Mula sa ika-unang utos, pag naging adik sa paggamit ng cellphone o social media ang isang tao, parang sinasamba niya na ang mga bagay na ito na kung saan ginagawa niya na ito isang idolo.",
+    "choices": ["Tama", "Mali"],
+    "choiceProbabilities": [4, 1],
+    "correctAnswer": 0,
+    "value": 1
+},
+{
+    "question": "Tama o Mali: Kapag nakikipagtawanan tayo kasama ang ating mga kaibigan, ayos lang na sabihin ng pabiro ang pangalan ng Diyos dahil isa lang naman itong pagpapahayag o expression.",
+    "choices": ["Tama", "Mali"],
+    "choiceProbabilities": [1, 4],
+    "correctAnswer": 1,
+    "value": 1
+},
+{
+    "question": "Natutunan natin nung tinalakay natin ang ikalawang utos ang pangalan na ipinahayag ng Diyos kay Moises. Ano ito?",
+    "choices": ["Yahweh, na ibig-sabihin, “I am”", "Jesus", "Kristo"],
+    "choiceProbabilities": [8, 1, 1],
+    "correctAnswer": 0,
+    "value": 1
+},
+{
+    "question": "Bakit inilipat sa mula sa araw ng Sabado sa araw ng Linggo ang “Sabbath”?",
+    "choices": ["Kasi sa araw ng lingo nangyari ang muling pagkabuhay ni Hesus at ang pentecostes", "Kasi may trabaho pa kapag Sabado", "Kasi ayon ito sa tradisyon ng mga Pinoy"],
+    "choiceProbabilities": [8, 1, 1],
+    "correctAnswer": 0,
+    "value": 1
+},
+{
+    "question": "Maaari ba tayong magtrabaho sa araw ng Linggo?",
+    "choices": ["Hindi, kasi huhusgahan tayo ng mga kaibigan natin.", "Oo, kasi maaaring pahinga rin naman sa ibang tao ang pagtratrabaho.", "Depende, kasi mayroong mga trabaho na ikinakailangan pa rin kahit sa araw ng Linggo"],
+    "choiceProbabilities": [1, 1, 8],
+    "correctAnswer": 2,
+    "value": 1
+},
+{
+    "question": "Ano ang dapat na ginagawa natin sa araw ng Linggo? ",
+    "choices": ["Matulog at mag cellphone lamang", "Magsimba (kung kakayanin) at magpahinga kasama ang pamilya o kaibigan", "Ituloy ang mga trabaho para mas may oras sa araw ng Lunes"],
+    "choiceProbabilities": [1, 8, 1],
+    "correctAnswer": 1,
+    "value": 1
+}
+]
