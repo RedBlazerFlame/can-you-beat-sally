@@ -10,16 +10,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm ci && node server.js",
     "watch": "nodemon server.js",
-    "generate-json": "node createNewJSONFile.js"
+    "generate-json": "node createNewJSONFile.js",
+    "generate-text": "node createNewTextFile.js",
+    "compile": "node parseTextFile.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.13",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "minimist": "^1.2.5"
   },
   "devDependencies": {
+    "@types/minimist": "^1.2.2",
     "nodemon": "^2.0.12"
   },
   "repository": {
